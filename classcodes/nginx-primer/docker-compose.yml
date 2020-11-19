@@ -26,10 +26,10 @@ services:
     ports:
       - 8081:80
     volumes:
-      - /Users/Chineze Okadigbodata/pgadmin:/root/.pgadmin
+      - /Users/Chineze Okadigbo/data/pgadmin:/root/.pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@isms.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_EMAIL: chinezelum.okadigbo@pau.edu.ng
+      PGADMIN_DEFAULT_PASSWORD: Evarist13@
     depends_on:
       - database
       
